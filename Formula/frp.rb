@@ -8,6 +8,7 @@ class Frp < Formula
   url "https://github.com/fatedier/frp/releases/download/v0.14.1/frp_0.14.1_darwin_amd64.tar.gz"
   version "0.14.1"
   sha256 "50f2341fb746144905009c56929673f0c6e33611fb69a5a287e9e2ddacf67952"
+  #openssl dgst -sha256 frp_0.14.1_darwin_amd64.tar.gz 
 
   # depends_on "cmake" => :build
 
