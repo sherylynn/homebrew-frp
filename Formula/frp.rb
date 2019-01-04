@@ -2,7 +2,7 @@
 #                http://www.rubydoc.info/github/Homebrew/brew/master/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 
-class frp < Formula
+class Frp < Formula
   desc "A platform for building proxies to bypass network restrictions."
   homepage "https://github.com/fatedier/frp"
   url "https://github.com/fatedier/frp/releases/download/v0.14.1/frp_0.14.1_darwin_amd64.tar.gz"
@@ -54,11 +54,11 @@ class frp < Formula
     #
     # This test will fail and we won't accept that! For Homebrew/homebrew-core
     # this will need to be a test that verifies the functionality of the
-    # software. Run the test with `brew test v2ray-core`. Options passed
+    # software. Run the test with `brew test frp`. Options passed
     # to `brew install` such as `--HEAD` also need to be provided to `brew test`.
     #
     # The installed folder is not in the path, so use the entire path to any
     # executables being tested: `system "#{bin}/program", "do", "something"`.
-    system "#{bin}/v2ray", "-version"
+    system "#{bin}/frp", "-version"
   end
 end
