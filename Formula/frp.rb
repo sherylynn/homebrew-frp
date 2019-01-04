@@ -40,7 +40,7 @@ class Frp < Formula
       <array>
         <string>#{bin}/frpc</string>
         <string>-c</string>
-        <string>#{etc}/frpc/frpc.ini</string>
+        <string>#{etc}/frp/frpc.ini</string>
       </array>
     </dict>
   </plist>
@@ -60,6 +60,6 @@ class Frp < Formula
     #
     # The installed folder is not in the path, so use the entire path to any
     # executables being tested: `system "#{bin}/program", "do", "something"`.
-    system "#{bin}/frp", "-version"
+    system "#{bin}/frpc", "-version"
   end
 end
