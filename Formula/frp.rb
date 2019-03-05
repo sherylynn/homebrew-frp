@@ -5,10 +5,9 @@
 class Frp < Formula
   desc "A platform for building proxies to bypass network restrictions."
   homepage "https://github.com/fatedier/frp"
-  url "https://github.com/fatedier/frp/releases/download/v0.14.1/frp_0.14.1_darwin_amd64.tar.gz"
-  version "0.14.1"
-  sha256 "50f2341fb746144905009c56929673f0c6e33611fb69a5a287e9e2ddacf67952"
-  #openssl dgst -sha256 frp_0.14.1_darwin_amd64.tar.gz 
+  version "0.24.1"
+  url "https://github.com/fatedier/frp/releases/download/v"+version+"/frp_"+version+"_darwin_amd64.tar.gz"
+  sha256 "d9b4624ad44745a7bbe9870c97a4d08f8b5711bab332bc06c0578542d5588d87"
 
   # depends_on "cmake" => :build
 
